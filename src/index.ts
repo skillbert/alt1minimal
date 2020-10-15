@@ -12,7 +12,7 @@ var imgs = a1lib.ImageDetect.webpackImages({
 });
 
 //only works once for some reason... whatever you get the idea
-a1lib.PasteInput.listen((cnv: HTMLCanvasElement, ref: a1lib.ImgRef) => {
+a1lib.PasteInput.listen(ref => {
 	var pos = ref.findSubimage(imgs.homeport);
 	document.write("find result: " + JSON.stringify(pos));
 });

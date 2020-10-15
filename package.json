@@ -1,26 +1,30 @@
 {
 	"scripts": {
-		"build": "node -r ts-node/register -r tsconfig-paths/register ./node_modules/webpack/bin/webpack.js -p",
+		"build": "node -r ts-node/register -r tsconfig-paths/register ./node_modules/webpack/bin/webpack.js",
 		"watch": "npm run build -- --watch"
 	},
 	"devDependencies": {
-		"@alt1/imagedata-loader": "0.0.5",
-		"@alt1/font-loader": "0.0.5",
-		"@types/node": "^12.12.18",
-		"@types/webpack": "^4.41.0",
-		"ts-loader": "^6.2.1",
-		"ts-node": "^8.5.4",
-		"tsconfig-paths-webpack-plugin": "^3.2.0",
-		"typescript": "^3.7.3",
+		"@alt1/font-loader": "^0.0.7",
+		"@alt1/imagedata-loader": "^0.0.7",
+		"@alt1/webpack": "^0.0.7",
+		"@types/node": "^12.12.54",
+		"@types/webpack": "^4.41.21",
+		"file-loader": "^5.1.0",
+		"json-loader": "^0.5.7",
+		"ts-loader": "^6.2.2",
+		"ts-node": "^8.10.2",
+		"tsconfig-paths-webpack-plugin": "^3.3.0",
+		"typescript": "^3.9.7",
 		"uglifyjs-webpack-plugin": "^2.2.0",
-		"webpack": "^4.41.3",
-		"webpack-chain": "^6.2.0",
-		"webpack-cli": "^3.3.10",
+		"webpack": "^4.44.1",
+		"webpack-chain": "^6.5.1",
+		"webpack-cli": "^3.3.12",
 		"webpack-node-externals": "^1.7.2"
 	},
 	"dependencies": {
-		"@alt1/base": "0.0.5",
-		"@alt1/ocr": "0.0.5",
-		"file-loader": "^5.0.2"
+		"@alt1/ability": "0.0.7",
+		"@alt1/base": "^0.0.7",
+		"@alt1/ocr": "^0.0.7",
+		"canvas": "^2.6.1"
 	}
 }
