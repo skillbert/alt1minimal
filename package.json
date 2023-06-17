@@ -4,7 +4,7 @@
 		"watch": "webpack --watch"
 	},
 	"dependencies": {
-		"alt1": "file:../../../../runeapps/alt3"
+		"alt1": "^0.0.1"
 	},
 	"devDependencies": {
 		"@types/node": "^12.12.54",
