@@ -3,7 +3,7 @@
 	"description": "minimal alt1 webpack/ts example test app",
 	"appUrl": "./index.html",
 	"configUrl": "./appconfig.json",
-	"iconUrl": "",
+	"iconUrl": "./icon.png",
 	"defaultWidth": 250,
 	"defaultHeight": 250,
 	"minWidth": 250,
@@ -12,5 +12,5 @@
 	"maxHeight": 1000,
 	"requestHandlers": [ ],
 	"activators": [	],
-	"permissions": "pixel"
+	"permissions": "pixel,overlay"
 }

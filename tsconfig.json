@@ -1,6 +1,7 @@
+// Typescript configuration file
 {
 	"compilerOptions": {
-		"moduleResolution": "Node"
-	},
-	"allowTsInNodeModules": true
+		// This setting is required to import alt1 libs as it's somehow not yet default behavior in ts
+		"moduleResolution": "node16"
+	}
 }
