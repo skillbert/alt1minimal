@@ -24,6 +24,9 @@ module.exports = {
         "canvas",
         "electron/common"
     ],
+    resolve: {
+        extensions: [".wasm", ".tsx", ".ts", ".mjs", ".jsx", ".js"]
+    },
     module: {
         // The rules section tells webpack what to do with different file types when you import them from js/ts
         rules: [

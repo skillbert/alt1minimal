@@ -1,7 +1,9 @@
 // Typescript configuration file
 {
 	"compilerOptions": {
-		// This setting is required to import alt1 libs as it's somehow not yet default behavior in ts
-		"moduleResolution": "node16"
+		// Settings to make typescript play nice with webpack
+		"resolvePackageJsonExports": true,
+		"moduleResolution": "bundler",
+		"module": "ESNext",
 	}
 }
